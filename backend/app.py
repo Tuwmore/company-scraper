@@ -15,8 +15,8 @@ app.add_middleware(
 )
 
 # Set your API key + Search Engine ID
-API_KEY = "AIzaSyAcK1WyxtWqLF5GK3XirVbA4fNbufqnXA8"
-CSE_ID = "947d625e8d7934c84"
+API_KEY = "API_KEY_HERE"
+CSE_ID = "CSE_ID_HERE"
 
 def google_search(query, api_key, cse_id, num=5):
     # refine query to force company profile info
